@@ -168,7 +168,7 @@ def PlotPhaseDiagram(filename, datapoints, mode = "scatter"): ## make sure the n
     plt.xlim(0, 1);
     plt.ylim(-1, 0);
     plt.xlabel("\u03B2"); plt.ylabel("\u03B1")
-    plt.title("Phase diagram")
+    plt.title("Topological Phase Diagram")
     plt.show()
     
 def Main_PhasePlot():
